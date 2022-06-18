@@ -1,0 +1,90 @@
+body{
+   line-height: 25px;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  color: white; 
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  margin-top: 60px;
+  font-weight: bolder;
+}
+.banner_content{
+  text-align: center;
+  padding-top: 6%;
+  padding-bottom: 8%;
+  font-size: x-large;
+}
+.donate{
+  display: inline-block;
+  background: #60bc0f;
+  padding: 0px 50px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 48px;
+  border: 1px solid #60bc0f;
+  border-radius: 0px;
+  outline: none !important;
+  box-shadow: none !important;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 300ms linear 0s; }
+  .donate:hover {
+    background: transparent;
+    color: #e1da0f; }
+  .primary_btn.yellow_btn {
+    background: #fdbb00 !important;
+    border: 1px solid #fdbb00 !important;
+    color: #000000; }
+    .primary_btn.yellow_btn:hover {
+      background: transparent !important; 
+}
+a {
+  text-decoration: none;
+  transition: all o.3s ease-in-out;}
+  a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+}
+nav {
+  width: 50%;
+	max-width: 300px;
+	height: 50px;
+  margin-left: 70%;
+  padding: 0%;
+}
+
+nav > ul {
+  display: flex;
+	justify-content: space-evenly;
+  margin: 0%;  
+}
+
+.about_content{
+  width: 60%;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+  text-align: center;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  font-size: large;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #000000;
+  margin-bottom: auto;
+  margin-top: auto;
+ 
+}
+
+.about {
+ color: #000000;
+}

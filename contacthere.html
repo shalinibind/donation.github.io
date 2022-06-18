@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+	  <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body class="content_form">
+    <nav>
+      <ul class="nav navbar-nav menu_nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html" onMouseOver="this.style.color='red'"onMouseOut="this.style.color='white'" style="color:white;">Home</a></li> 
+        &nbsp;&nbsp;&nbsp;&nbsp;<li class="nav-item" ><a class="nav-link" href="about.html" onMouseOver="this.style.color='orange'"onMouseOut="this.style.color='white'" style="color:white;">About</a></li> 
+        &nbsp;&nbsp;&nbsp;&nbsp;<li class="nav-item"><a class="nav-link" href="contacthere.html" onMouseOver="this.style.color='orange'"onMouseOut="this.style.color='white'" style="color:white;">Contact</a></li>
+      </ul>
+                </nav>
+    <h1>Contact</h1>
+    <p>For any enquiry contact here-</p>
+    <form>
+      <fieldset>
+        <label>Enter Your Name: <input type="text" name="first-name" required /></label>
+        <label>Enter Your Email: <input type="email" name="email" required /></label>
+        <label>Enter Subject: <input type="text" name="subject" required /></label>
+      </fieldset>
+      <fieldset>
+        <label>Enter Message:
+          <textarea name="message" rows="3" cols="30" placeholder="Enter Message..."></textarea>
+			  </label>
+      </fieldset>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
